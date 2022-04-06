@@ -20,7 +20,6 @@ router.put('/testing', function (req, res, next) {
   jsObj.number = req.body.number; 
 
   //prints out the json object postman sends to the server
-  //what is this line doing? 
   console.log(req.body);
 
   //sends back a response to the client
