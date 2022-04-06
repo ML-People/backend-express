@@ -14,6 +14,7 @@ router.get('/testing', function (req, res, next) {
   res.json(jsObj);
 });
 
+//'PUT' route for object
 router.put('/testing', function (req, res, next) {
   jsObj.test = req.body.test; 
   jsObj.number = req.body.number; 
